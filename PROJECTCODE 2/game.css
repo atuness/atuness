@@ -1,0 +1,109 @@
+/* */
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    margin: 0px;  
+}
+
+#welcome{
+    text-align: center;
+}
+
+#gameText{
+    height: 50vh;
+    overflow-y: scroll; 
+}
+
+p{
+    margin: 0px;
+}
+
+#userInput{
+    display: none;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url(startbild.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 25vw;
+    margin: auto;
+    margin-right: 10vw; 
+    
+}
+
+#startBTN{
+    margin: auto;
+    
+}
+
+.branch{
+    position: relative;
+    width: 5vw;
+    height: 5vh;
+    background-color: saddlebrown;
+    animation: moveAround 10s infinite alternate;
+}
+
+.gameDiv{
+    text-align: center;
+    font-size: 24px;
+    width: 30vw;
+    height: 30vh;
+    margin: auto;
+}
+
+@keyframes moveAround {
+  0% {
+    left: 20%;
+    top: 20%;
+  }  
+  25% {
+    left: 60%;
+    top: 20%;
+  }
+  50% {
+    left: 80%;
+    top: 60%;
+  }
+  75% {
+    left: 20%;
+    top: 60%;
+  }
+  100% {
+    left: 20%;
+    top: 20%;
+  }
+  
+}
+
+@media only screen and (max-width: 550px) {
+    #box{
+        margin-right: auto;
+        margin-top: 65vh;
+        height: 30vh;
+        width: 90vw;
+  }
+    .wrapper{
+        flex-direction: column;
+    }
+    
+    .gameDiv{
+        display: block;
+        width: 90vw;
+        height: 50vh;
+    }
+}
