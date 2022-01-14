@@ -1,6 +1,6 @@
 ### Hello, I'm Elisabeth 👋
 
-- 👩🏻‍💻 I’m currently looking for work
+- 👩🏻‍💻 I’m currently working as a front-end devloper
 - 🤖 I code in HTML5, CSS, Javascript, JAVA and some PHP and MySQL
 - 🧡 I love design and have studied design at university as well
 - 🤔 I have a Bachelor degree in Media Techonolgy
